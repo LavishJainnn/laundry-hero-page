@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    padding: 12px 80px;
+    list-style: none;
+}
+
+.logo{
+    font-size: xx-large;
+}
+.sectionsFlex{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    color: rgb(93, 93, 93);
+}
+.sections:hover{
+    color: rgb(55, 155, 255);
+    cursor: pointer;
+    animation: navbar 0.5s ease 0.1s forwards;
+}
+.username{
+    padding: 20px 25px;
+    background-color: lightblue;
+    border-radius: 15px;
+    color: rgb(55, 155, 255);
+    cursor: pointer;
+}
+
+.heroFlex{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 120px 160px;
+}
+.leftText{
+    width: 50%;
+    height: 1vh;
+    padding: 0, 80px;
+}
+.leftText h1{
+    font-size: 3rem;
+    color: rgb(103, 103, 103);
+    line-height: 60px;
+}
+.blue{
+    color: rgb(36, 146, 255);
+}
+.leftText p{
+    color: silver;
+    line-height: 24px;
+    word-spacing: 4px;
+    margin-top: 24px;
+
+}
+.btn{
+    padding: 20px 25px;
+    background-color: rgb(55, 155, 255);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    margin-top: 40px;
+    font-size: 16px;
+}
+.rightImage{
+    width: 500px;
+    height: 500px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlbbIGnkbPQeOR60JFlH8lUadVrxADwlLRWQ&s');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes navbar{
+    from{
+        transform: translate(0);
+        text-decoration: none;
+    }
+    to{
+        transform: translate(0, -4px);
+        text-decoration: underline;
+    }
+}
