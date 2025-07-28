@@ -1,2 +1,2 @@
 # laundry-hero-page
---> https://laundryheropage.netlify.app/
+--> https://laundrybylavish.netlify.app/
