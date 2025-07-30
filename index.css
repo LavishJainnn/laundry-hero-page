@@ -98,6 +98,36 @@ body{
     }
 }
 
+@media (max-width: 1200px){
+    .navFlex{
+        padding: 12px 20px;
+    }
+    .logo{
+        font-size: x-large;
+    }
+    .sectionsFlex{
+        gap: 24px;
+    }
+    .username{
+        padding: 12px 12px;
+    }
+    .heroFlex{
+        padding: 80px 80px;
+        gap: 8px;
+    }
+    .leftText h1{
+        font-size: 1.8rem;
+        line-height: 32px;
+    }
+    .leftText p{
+        line-height: 20px;
+    }
+    .rightImage{
+        width: 450px;
+        height: 450px;
+    }
+}
+
 @media (max-width: 768px){
     .navFlex{
         padding: 12px 20px;
