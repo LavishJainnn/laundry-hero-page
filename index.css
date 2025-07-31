@@ -94,7 +94,7 @@ body {
   flex: 1;
   width: auto;
   height: 400px;
-  background-image: url('/images/hero.png');
+  background-image: url('/hero.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
